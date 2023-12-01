@@ -8,7 +8,7 @@ def get_root_dir_name():
     command = "Path(__file__).absolute()"
     while True:
         rootDir = str(eval(command))
-        if rootDir.split(sep="\\")[-1] == "AmazonTestEnvironment_MkhitaryanSatik":
+        if rootDir.split(sep="\\")[-1] == "AGBU_AmazonTestEnvironment":
             return rootDir
         else:
             command += ".parent"
